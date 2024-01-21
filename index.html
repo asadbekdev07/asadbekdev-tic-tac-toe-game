@@ -6,6 +6,68 @@
   <title>Tic Tac Toe oʻyini</title>
 </head>
 <body>
+  <header>
+    <h1>Tic Tac Toe oʻyinini oʻynang!</h1>
+    <p>HTML, CSS va JavaScript yordamida ishlab chiqildi.</p>
+  </header>
 
+  <main>
+    <aside>
+      <h2>Ismingizni tanlang</h2>
+      <form>
+        <div>
+          <label for="player-name">Oʻyinchi ismi</label>
+          <input type="text" name="playername" id="player-name" required>
+        </div>
+        <div>
+          <button type="button">Bekor qilish</button>
+          <button type="submit">Tasdiqlash</button>
+        </div>
+      </form>
+    </aside>
+    <section id="game-configuration">
+      <ol>
+        <li>
+          <article>
+            <h2>1-oʻyinchi</h2>
+            <h3>OʻYINCHI NOMI</h3>
+            <p>X</p>
+            <button>Tahrirlash</button>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h2>2-oʻyinchi</h2>
+            <h3>OʻYINCHI NOMI</h3>
+            <p>O</p>
+            <button>Tahrirlash</button>
+          </article>
+        </li>
+      </ol>
+      <button>Yangi oʻyin boshlang</button>
+    </section>
+
+    <section id="active-game">
+      <article>
+        <h3>Siz gʻalaba qozondingiz <span id="winner-name">OʻYINCHI NOMI</span>!</h3>
+        <p>"Yangi oʻyin" boshlash uchun yuqoridagi "Yangi oʻyin boshlang" tugmasini bosing!</p>
+      </article>
+
+      <p>Sizning navbatingiz, <span id="ative-player-name">OʻYINCHI NOMI</span>!</p>
+      <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+
+        <li></li>
+        <li></li>
+        <li></li>
+
+        <li></li>
+        <li></li>
+        <li></li>
+      </ol>
+    </section>
+  </main>
 </body>
 </html>
