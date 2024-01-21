@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./styles/styles.css">
   <link rel="stylesheet" href="./styles/overlays.css">
   <link rel="stylesheet" href="./styles/configuration.css">
+  <link rel="stylesheet" href="./styles/game.css">
 </head>
 <body>
   <div id="backdrop"></div>
@@ -57,13 +58,13 @@
     </section>
 
     <section id="active-game">
-      <article>
-        <h3>Siz gʻalaba qozondingiz <span id="winner-name">OʻYINCHI NOMI</span>!</h3>
+      <article id="game-over">
+        <h2>Siz gʻalaba qozondingiz <span id="winner-name">OʻYINCHI NOMI</span>!</h2>
         <p>"Yangi oʻyin" boshlash uchun yuqoridagi "Yangi oʻyin boshlang" tugmasini bosing!</p>
       </article>
 
       <p>Sizning navbatingiz, <span id="ative-player-name">OʻYINCHI NOMI</span>!</p>
-      <ol>
+      <ol id="game-board">
         <li></li>
         <li></li>
         <li></li>
