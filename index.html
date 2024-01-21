@@ -10,18 +10,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <!-- STYLES  -->
   <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/overlays.css">
+  <link rel="stylesheet" href="./styles/configuration.css">
 </head>
 <body>
+  <div id="backdrop"></div>
   <header id="main-header">
     <h1>Tic Tac Toe oʻyinini oʻynang!</h1>
     <p>HTML, CSS va JavaScript yordamida ishlab chiqildi.</p>
   </header>
 
   <main>
-    <aside>
+    <aside class="modal" id="config-ourlay">
       <h2>Ismingizni tanlang</h2>
       <form>
-        <div>
+        <div class="form-control">
           <label for="player-name">Oʻyinchi ismi</label>
           <input type="text" name="playername" id="player-name" required>
         </div>
@@ -37,7 +40,7 @@
           <article>
             <h2>1-oʻyinchi</h2>
             <h3>OʻYINCHI NOMI</h3>
-            <p>X</p>
+            <p class="player-symbol">X</p>
             <button class="btn btn-alt">Tahrirlash</button>
           </article>
         </li>
@@ -45,7 +48,7 @@
           <article>
             <h2>2-oʻyinchi</h2>
             <h3>OʻYINCHI NOMI</h3>
-            <p>O</p>
+            <p class="player-symbol">O</p>
             <button class="btn btn-alt">Tahrirlash</button>
           </article>
         </li>
