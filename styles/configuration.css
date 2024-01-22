@@ -1,8 +1,8 @@
-#config-ourlay {
+#config-overlay {
   text-align: center;
 }
 
-#config-ourlay h2 {
+#config-overlay h2 {
   margin: 0.5rem 0;
 }
 
@@ -17,10 +17,10 @@
 }
 
 .form-control input {
+  font: inherit;
+  border: 1px solid rgb(204, 204, 204);
   width: 15rem;
   padding: 0.35rem;
-  font: inherit;
-  border: 1px solid rgb(204, 204, 204)
 }
 
 .error label {
@@ -29,12 +29,8 @@
 
 .error input {
   border-color: rgb(136, 2, 2);
-  color: rgb(136, 2, 2);
+  color:rgb(136, 2, 2);
   background-color: rgb(253, 219, 219);
-}
-
-#config-errors {
-  margin: 0.7rem 0;
 }
 
 #game-configuration {
@@ -45,18 +41,19 @@
 }
 
 #game-configuration ol {
-  display: flex;
-  padding: 0;
-  margin: 0;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 #game-configuration li {
-  padding: 1rem;
   margin: 1rem;
+  padding: 1rem;
   width: 50%;
-  border-radius: 4px;
   background-color: rgb(243, 227, 255);
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 #game-configuration h2 {
@@ -65,14 +62,14 @@
 }
 
 #game-configuration h3 {
-  margin: 0.5rem 0;
   font-size: 1.5rem;
-  color: rgb(94, 94, 167);
+  margin: 0.5rem 0;
+  color: rgb(94, 4, 168);
 }
 
 .player-symbol {
-  margin: 0.5rem 0;
   font-size: 2rem;
   font-weight: bold;
-  color: rgb(47, 2, 82);
+  color: rgb(47, 4, 82);
+  margin: 0.5rem 0;
 }
