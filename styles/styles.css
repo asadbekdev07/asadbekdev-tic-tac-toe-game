@@ -1,4 +1,10 @@
+html {
+  height: 100%;
+}
 body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   margin: 0;
   font-family: 'Open-Sans', sans-serif;
   color: rgb(44, 41, 44);
@@ -10,6 +16,9 @@ body {
   color: white;
   padding: 2rem 5%;
   text-align: center;
+}
+.main-content {
+  flex-grow: 1;
 }
 
 .btn {
@@ -36,4 +45,23 @@ body {
 .btn-alt:hover {
   background-color: rgb(230, 201, 252);
   border-color: transparent;
+}
+
+footer {
+  padding: 1.5rem 0;
+  background-color: #0b0f19;
+  text-align: center;
+}
+footer p {
+  font-size: 2rem;
+  color: grey;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.4s ease;
+}
+footer a:hover {
+  color: rgb(79, 10, 190);
 }
